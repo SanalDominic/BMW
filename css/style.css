@@ -1,0 +1,356 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+html, a {
+    color: #494949;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    text-justify: inter-ideograph;
+}
+
+button {
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    width: 300px;
+    padding: 7px 10px;
+    padding-left: 20px;
+    text-align: left;
+    background-color: #6f6f6f;
+    color: #ffff;
+    border: unset;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.header-top {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+}
+
+.logos {
+    display: inline-flex;
+
+}
+
+
+
+.logos #bmwg {
+    height: 38px;
+}
+
+.util ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.util ul li {
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.util ul li a {
+    text-decoration: none;
+    transition: .5s;
+}
+
+.header-top ul li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-position: under;
+}
+
+li:lang(it) {
+    border-left: 2px solid #494949;
+    height: 20px;
+}
+
+.header-bottom {
+    text-align: left;
+    padding: 0 6%;
+}
+
+
+.header-bottom .menu {
+    list-style: none;
+    display: inline-flex;
+
+}
+
+.header-bottom .menu li {
+
+    position: relative;
+    margin-right: 3px;
+    padding-bottom: 10px;
+}
+
+.menu li {
+    border-bottom: 4px solid #494949;
+    padding: 0px 28px;
+}
+
+.menu li a {
+    text-decoration: none;
+
+}
+
+.menu li:nth-child(1) {
+    border-color: #035970;
+}
+
+.menu li:nth-child(2) {
+    border-color: #fad022;
+}
+
+.menu li:nth-child(3) {
+    border-color: #0083c6;
+}
+
+.menu li:nth-child(4) {
+    border-color: #69103b;
+}
+
+.menu li:nth-child(5) {
+    border-color: #508130;
+}
+
+
+.menu li:nth-child(6) {
+    border-color: #e96d0c;
+}
+
+.menu li:nth-child(7) {
+    border-color: #8d1e77;
+}
+
+
+
+.slide img {
+    width: 100%;
+}
+
+.slider {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+}
+
+.overlay h1 {
+    font-size: 25px;
+}
+
+
+
+.inspired {
+
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
+.inspired h1 {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.col {
+    width: 32%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+
+}
+
+.col img {
+    width: 100%;
+    border-bottom: 5px solid #e96d0c;
+}
+
+.inspired figcaption {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 20px;
+}
+
+
+.current {
+    width: 80%;
+    margin: auto;
+
+}
+
+#first {
+    padding-top: 10px;
+}
+
+
+.current h1 {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.current-left {
+
+    width: 62%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.current-left img {
+    width: 100%;
+}
+
+.current-right {
+    width: 35%;
+    margin: auto;
+}
+
+.current-right span {
+
+
+    padding-right: 10px;
+
+}
+
+span:lang(b) {
+    border-right: 2px solid #494949;
+    height: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+span:lang(b):last-child {
+    border-right: none;
+}
+
+.current-right h1 {
+    padding-left: 0;
+}
+
+.current-right div {
+    padding-bottom: 25px;
+}
+
+.current1 {
+    width: 80%;
+    margin: auto;
+}
+
+.current1 img {
+    border-bottom: 0;
+}
+
+
+
+.current1 div {
+    padding-bottom: 15px;
+}
+
+
+.current1 div p {
+    padding-top: 10px;
+}
+
+.sustain {
+
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.sustain .current-right {
+    text-align: right;
+}
+
+.readmore {
+    width: 80%;
+    margin: auto;
+}
+
+.readmore button {
+    margin-bottom: 70px;
+}
+
+.footer {
+    border-top: 1px solid lightgray;
+    padding-top: 30px;
+}
+
+.footer-first {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.footer-first .foot {
+    width: 30%;
+
+}
+
+.footer-first ul {
+    list-style: none;
+
+}
+
+.footer-first ul li {
+    padding: 10px;
+}
+
+.footer-first ul li a {
+    text-decoration: none;
+}
+
+
+.footer-second {
+
+    padding-left: 10%;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    background: #eeefea;
+    color: #333;
+}
+
+.footer-second ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.footer-second ul li {
+
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.footer-second ul li a {
+
+    text-decoration: none;
+}
